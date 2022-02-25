@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import AboutMe from "./AboutMe";
+import Blog from './Blog';
+import Contact from './Contact'
+import Projects from './Projects'
 import Navbar from './Navbar'
+import Home from "./Home";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,11 +21,20 @@ function App() {
       <div className="App">
         <Navbar/>
         <Switch>
-          <Route path="/testing">
-            <h1>Test Route</h1>
+          <Route path="/About">
+            <AboutMe/>
+          </Route>
+          <Route path="/Blog">
+            <Blog/>
+          </Route>
+          <Route path="/Contact">
+            <Contact/>
+          </Route>
+          <Route path="/Projects">
+            <Projects/>
           </Route>
           <Route path="/">
-            <h1>Page Count: {count}</h1>
+            <Home/>
           </Route>
         </Switch>
       </div>

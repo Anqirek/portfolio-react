@@ -1,14 +1,87 @@
 body {
+ margin: 0;
  background-size: auto;
- background-color:grey;
+ background-color:rgb(24, 24, 24);
+ font-family: 'Work Sans', sans-serif;
 }
 
-#nav-bar {
- display: flex;
- align-items: center;
- justify-content: space-between;
+.navbar {
+ width: 80%;
+ margin: 0 auto;
 }
 
-.navbar-01{
-  display:flex;
+header {
+  background: rgb(250, 115, 11);
+}
+
+header::after {
+ content:'';
+ display: table;
+ clear: both;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+h1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+nav {
+  float:right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display:inline-block;
+  margin-left: 60px;
+  padding-top: 22px;
+
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content:'';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color:white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 270ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+#landing {
+  color:white;
+  
 }

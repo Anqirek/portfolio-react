@@ -1,8 +1,9 @@
 
 
 function Home(){
+
  return (
-  <div>Talk to me in:</div>
+  <div id='landing'>Talk to me in:</div>
  )
 }
 
