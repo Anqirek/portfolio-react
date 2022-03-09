@@ -13,16 +13,7 @@ function Home(){
   <>
    <div id='landing'>Talk to me in:</div>
    <div id='codeicons'>
-       <ul>
-        <li><img src={Azure} alt=''/></li>
-        <li><img src={Bootstrap} alt=''/></li>
-        <li><img src={CSS} alt=''/></li>
-        <li><img src={HTML} alt=''/></li>
-        <li><img src={Javascript} alt=''/></li>
-        <li><img src={Postgres} alt=''/></li>
-        <li><img src={Rails} alt=''/></li>
-        <li><img src={Reacticon} alt=''/></li>
-       </ul>
+     
    </div>
   </>
  )

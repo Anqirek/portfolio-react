@@ -98,7 +98,7 @@ nav a:hover::before {
   font-weight: 200;
 }
 
-#codeicons {
+/* #codeicons {
   border-radius: 210px;
   border: 4px solid rgb(250, 115, 11);
   padding: 10px;
@@ -107,13 +107,25 @@ nav a:hover::before {
   justify-content: center;
   height: 10em;
   margin: 200px;
-  position: relative;
+  position: relative; */
   
-}
+/* } */
 
 #codeicons ul {
-  list-style: none;
+
   height: 10em;
   display: flex;
-  
+  position:relative;
+}
+
+/* css box model */
+
+.iconbox {
+ list-style: none;
+ background: darkgrey;
+ width: 300px;
+
+ margin: 100px;
+ border: 10px solid black;
+ padding: 100px;
 }
