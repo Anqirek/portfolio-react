@@ -118,14 +118,23 @@ nav a:hover::before {
   position:relative;
 }
 
+.flexbox {
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 50px;
+ font-family:'Open Sans', sans-serif;
+ font-size: 44pt;
+}
 /* css box model */
 
 .iconbox {
  list-style: none;
  background: darkgrey;
- width: 300px;
-
- margin: 100px;
+ width: 30%;
+ margin: auto;
  border: 10px solid black;
  padding: 100px;
+ max-width: 1000px;
 }
