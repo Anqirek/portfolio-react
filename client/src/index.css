@@ -1,7 +1,7 @@
 body {
  margin: 0;
  background-size: auto;
- background-color:rgb(24, 24, 24);
+ background-color:black;
  font-family: 'Work Sans', sans-serif;
 }
 
@@ -98,43 +98,45 @@ nav a:hover::before {
   font-weight: 200;
 }
 
-/* #codeicons {
-  border-radius: 210px;
-  border: 4px solid rgb(250, 115, 11);
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 10em;
-  margin: 200px;
-  position: relative; */
-  
-/* } */
 
-#codeicons ul {
 
-  height: 10em;
-  display: flex;
-  position:relative;
-}
 
-.flexbox {
+
+.titlebox {
  color: white;
  display: flex;
  align-items: center;
  justify-content: center;
- padding: 50px;
- font-family:'Open Sans', sans-serif;
+ padding: 40px;
+ font-family:'Roboto', sans-serif;
  font-size: 44pt;
 }
 /* css box model */
 
 .iconbox {
- list-style: none;
- background: darkgrey;
- width: 30%;
+ background: black;
+ width: 100%;
  margin: auto;
- border: 10px solid black;
+ border: 10px double rgb(250, 115, 11);
  padding: 100px;
  max-width: 1000px;
+}
+
+.row {
+  display: flex;
+  margin-left: -15vh;
+  color: white;
+  margin-top: -5vh;
+  margin-bottom: -5vh;
+  position: relative;
+}
+
+.column {
+  list-style: none;
+  /* flex: 34%;
+  padding: 5px; */
+  float: left;
+  width: 130px;
+  padding: 8px;
+
 }
