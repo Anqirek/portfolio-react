@@ -38,6 +38,7 @@ h1 a {
   text-transform: uppercase;
   color: white;
   font-weight: 550;
+  margin-left: -12vh;
   position: relative;
 
 }
